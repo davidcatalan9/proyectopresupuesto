@@ -18,14 +18,27 @@
             <section id="" user-form-section>
                 <h2>Crea un Usuario</h2>
                 <form id="user-form">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Nombres:</label>
                     <input type="text" id="nombre" placeholder="Nombres" required />
 
                     <label for="apellido-p">Apellido Paterno</label>
-                    <input type="text" id="apellido-p" placeholder="Apellido paterno" />
+                    <input
+                        type="text"
+                        id="apellido-p"
+                        placeholder="Apellido paterno"
+                        required
+                    />
+                    <label for="apellido-mm">Apellido Materno</label>
+                    <input
+                        type="text"
+                        id="apellido-m"
+                        placeholder="Apellido Materno"
+                        required
+                    />
 
                     <label for="rut">Rut</label>
-                    <input type="text" id="rut" placeholder="123456789" />
+                    <input type="text" id="rut" placeholder="123456789" required/>
+                    
                 </form>
             </section>
         </main>
